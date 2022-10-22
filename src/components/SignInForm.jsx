@@ -20,7 +20,12 @@ export default function SignInForm() {
     })
 	}
 
-
+	const submitChackin = event => {
+    event.preventDefault();
+		if (login=== "dev" && password==="dev123"){
+			// тут будет редирект
+		}
+	}
 
   return (
     <div className=''>
