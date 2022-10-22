@@ -12,7 +12,7 @@ export default function SignInForm() {
 
 	const changeInputSignIn = event => {
     event.persist()
-    setRegister(prev => {
+    setLogIn(prev => {
         return {
             ...prev,
             [event.target.name]: event.target.value,
@@ -20,7 +20,7 @@ export default function SignInForm() {
     })
 	}
 
-	const submitChackin = event => {
+	const submitCheckin = event => {
     event.preventDefault();
 		if (login=== "dev" && password==="dev123"){
 			// тут будет редирект
