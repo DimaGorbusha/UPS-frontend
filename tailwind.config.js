@@ -6,11 +6,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'squartiqal ': ['Squartiqa4F'],
-        'aeroport-medium': ['Aeropot Medium'],
-        'aeroport-bold': ['Aeropot Bold'],
+        'squartiqa': ['Squartiqa4F'],
+        'aeroport-medium': ['Aeroport Medium'],
+        'aeroport-bold': ['Aeroport Bold'],
       },
-    },
+      colors: {
+        bgInput: "#1E1E1E",
+        darkRed: "#B42A40",
+      },
+      backgroundImage: {
+        'red': "url('./img/patternRed.svg')",}
+      }
   },
   plugins: [],
 }
