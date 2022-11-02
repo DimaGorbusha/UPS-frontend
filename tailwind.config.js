@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'squartiqa': ['Squartiqa4F'],
+        'squartiqal ': ['Squartiqa4F'],
+        'aeroport-medium': ['Aeropot Medium'],
+        'aeroport-bold': ['Aeropot Bold'],
       },
     },
   },
