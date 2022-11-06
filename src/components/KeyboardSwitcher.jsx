@@ -4,7 +4,7 @@ import lang_switcher from "../img/lang_switcher.png"
 
 export default function KeyboardSwitcher() {
   return (
-    <div className='mt-[32px]'>
+    <div className='mt-[5px]'>
         <h2 className='text-white text-[24px] font-aeroport'>Раскладка клавиатуры</h2>
         <img src={flags} alt="" className='mt-[5px]'/>
         <div className='flex'>

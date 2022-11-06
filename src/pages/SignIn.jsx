@@ -6,15 +6,15 @@ import Zona from '../components/Zona'
 
 export default function SignIn() {
   return (
-    <div className='bg-gray border-[#B42A40] border-[33px]'>
-      <div className='ml-[82px] flex'>
+    <div className='bg-gray bg-cover border-darkRed border-[25px]'>
+      <div className='ml-[62px] flex'>
         <div>
           <SignInForm/>
-          <img src={downApp} alt="" />
+          <img src={downApp} alt="" className='w-[525px] h-[105px]'/>
           <KeyboardSwitcher/>
         </div>
-        <div>
-          <p className="text-[#B42A40] text-[595px] font-squartiqa-ultralight">88</p>
+        <div className='ml-[75px]'>
+          <p className="text-[#B42A40] text-[460px] font-squartiqa-ultralight">88</p>
           <Zona/>
         </div>
       </div>
