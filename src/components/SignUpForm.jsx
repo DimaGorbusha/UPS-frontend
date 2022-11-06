@@ -108,8 +108,8 @@ export default function SignUpForm() {
 				<label for="checkbox2" className='text-[14px] text-white font-aeroport-medium '>Согласен(а) с политикой обработки персональных данных</label>
 			</div>
 			<div className='flex mb-[20px]'>
-				<p className='font-squartiqa text-[20px] text-white bg-red px-[80px] bg-cover py-[10px] h-[60px] w-[243px] mr-[40px] cursor-pointer' onClick={submitCheckin}>ВХОД</p>
-				<p className='py-[15px] px-[35px] border-darkRed border-[4px] h-[60px] w-[243px] font-squartiqa text-[20px] text-darkRed'><a href=''>РЕГИСТРАЦИЯ</a></p>
+				<p className='font-squartiqa text-[20px] text-white bg-red px-[80px] bg-cover py-[10px] h-[60px] w-[243px] mr-[40px] cursor-pointer'><a href='/signin'>ВХОД</a></p>
+				<p className='py-[15px] px-[35px] border-darkRed border-[4px] h-[60px] w-[243px] font-squartiqa text-[20px] text-darkRed' onClick={submitCheckin}>РЕГИСТРАЦИЯ</p>
 			</div>
         </form>
     </div>

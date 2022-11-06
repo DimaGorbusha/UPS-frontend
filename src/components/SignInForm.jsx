@@ -30,14 +30,14 @@ export default function SignInForm() {
 		<img src={logo} alt="" className='w-[344px] h-[182px] mb-[16px]'/>
         <p className='text-[16px] text-[#BEBEBE] font-aeroport-medium mb-[18px]'>Форма входа пользователя киберспортивного клуба</p>
         <form className='flex flex-col'>
-			<div className='flex mb-[15px]'>
+			<div className='sm:flex mb-[15px]'>
 				<input
 					name="login"
 					id="login"
 					placeholder="Логин"
 					value={logIn.login}
 					onChange={changeInputSignIn}
-					className="w-[243px] h-[53px] font-aeroport-medium bg-bgInput border-[1.68px] border-white text-[16px] mr-[30px]"/>
+					className="w-[243px] h-[53px] font-aeroport-medium bg-bgInput border-[1.68px] border-white text-[16px] mb-[10px] sm:mb-0 sm:mr-[30px]"/>
 				<input
 					type="password"
 					name="password"
@@ -61,9 +61,9 @@ export default function SignInForm() {
 				id="checkbox2"/>
 				<label for="checkbox2" className='text-[14px] text-white font-aeroport-medium '>Согласен(а) с политикой обработки персональных данных</label>
 			</div>
-			<div className='flex mb-[20px]'>
-				<p className='font-squartiqa text-[20px] text-white bg-red px-[80px] bg-cover py-[10px] h-[60px] w-[243px] mr-[40px] cursor-pointer' onClick={submitCheckin}>ВХОД</p>
-				<p className='py-[15px] px-[35px] border-darkRed border-[4px] h-[60px] w-[243px] font-squartiqa text-[20px] text-darkRed'><a href=''>РЕГИСТРАЦИЯ</a></p>
+			<div className='sm:flex mb-[20px]'>
+				<p className='font-squartiqa text-[20px] text-white bg-red px-[80px] bg-cover py-[10px] h-[60px] w-[243px] sm:mr-[40px] mb-[10px] sm:mb-0 cursor-pointer' onClick={submitCheckin}>ВХОД</p>
+				<p className='py-[15px] px-[35px] border-darkRed border-[4px] h-[60px] w-[243px] font-squartiqa text-[20px] text-darkRed'><a href='/signup'>РЕГИСТРАЦИЯ</a></p>
 			</div>
         </form>
     </div>
