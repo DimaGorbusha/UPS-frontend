@@ -21,7 +21,7 @@ export default function SignInForm() {
 
 	const submitCheckin = event => {
     event.preventDefault();
-		alert("Ну типа вход");
+		alert("Вход");
 		// Бизнес-логика приложения
 	}
 
