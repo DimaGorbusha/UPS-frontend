@@ -14,7 +14,7 @@ export default function SignIn() {
           <KeyboardSwitcher/>
         </div>
         <div className='sm:ml-[75px]'>
-          <p className="text-[#B42A40] text-[220px] sm:text-[460px] font-squartiqa-ultralight">88</p>
+          <p className="text-[#B42A40] text-[200px] sm:text-[460px] font-squartiqa-ultralight">88</p>
           <Zona/>
         </div>
       </div>
