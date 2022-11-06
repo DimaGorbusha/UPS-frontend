@@ -63,7 +63,7 @@ export default function SignInForm() {
 			</div>
 			<div className='flex mb-[20px]'>
 				<p className='font-squartiqa text-[20px] text-white bg-red px-[80px] bg-cover py-[10px] h-[60px] w-[243px] mr-[40px] cursor-pointer' onClick={submitCheckin}>ВХОД</p>
-				<p className='py-[15px] px-[35px] border-darkRed border-[4px] h-[60px] w-[243px] font-squartiqa text-[20px] text-darkRed'><a href='' >РЕГИСТРАЦИЯ</a></p>
+				<p className='py-[15px] px-[35px] border-darkRed border-[4px] h-[60px] w-[243px] font-squartiqa text-[20px] text-darkRed'><a href=''>РЕГИСТРАЦИЯ</a></p>
 			</div>
         </form>
     </div>
