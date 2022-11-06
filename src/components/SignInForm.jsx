@@ -21,13 +21,13 @@ export default function SignInForm() {
 
 	const submitCheckin = event => {
     event.preventDefault();
-		alert("Ну типа регистрация");
+		alert("Ну типа вход");
 		// Бизнес-логика приложения
 	}
 
   return (
-    <div className=''>
-		<img src={logo} alt="" className='w-[459px] h-[194px]'/>
+    <div className='pt-[183px]'>
+		<img src={logo} alt="" className='w-[459px] h-[194px] mb-[35px]'/>
         <p className='text-[18px] text-[#BEBEBE] font-aeroport-medium mb-[20px]'>Форма входа пользователя киберспортивного клуба</p>
         <form className='flex flex-col'>
 			<div className='flex mb-[17px]'>
